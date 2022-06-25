@@ -13,7 +13,7 @@ Escribe codigo en los archivos `index.html` y `styles.css` para crear el `Indica
 
 ```html
     <div class="contenedor_carga">
-        <divclass="carga">
+        <div class="carga">
         </div>
     </div>
 ```
