@@ -1,13 +1,13 @@
-# Ejercicio AJAX
+# Ejercicio Indicador de Carga
 
 #### Pre-requisitos:
 No es necesario nigun pre-requisito especifico para realizar este mini proyecto, solo necesitas un editor de codigo de preferencia.
 
-> De usar Visual Studio Code es recomendable instalar la extencion "Live Server" [pagina de descarga](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+> De usar Visual Studio Code es recomendable instalar la extencion `Live Server` [pagina de descarga](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
 #### Inicio del proyecto:
-Escribe codigo en los archivos `index.html` y `styles.css` para crear el 'Indicador de carga' o 'Loading page':
+Escribe codigo en los archivos `index.html` y `styles.css` para crear el `Indicador de carga` o `Loading page`:
 
 - En el index.html crea 2 etiquetas `<div>` con un `id` diferente para cada uno, una de las etiquetas debe quedar dentro de la otra.
 
