@@ -6,8 +6,6 @@ No es necesario nigun pre-requisito especifico para realizar este mini proyecto,
 > De usar Visual Studio Code es recomendable instalar la extencion "Live Server" [pagina de descarga](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 
-```
-
 #### Inicio del proyecto:
 Escribe codigo en los archivos `index.html` y `styles.css` para crear el 'Indicador de carga' o 'Loading page':
 
