@@ -65,6 +65,6 @@ Escribe codigo en los archivos `index.html` y `styles.css` para crear el `Indica
         z-index: 10000;
     }
 ```
-![img](./img/02-css-step-2.png)
+![img](./img/03-css-step-2.png)
 
 
