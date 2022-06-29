@@ -48,7 +48,7 @@ Escribe codigo en los archivos `index.html` y `styles.css` para crear el `Indica
 
     2. La propiedad `position` con un comportamiento `fixed` para evitar que se nos mueva el elemento de pocision independientemente del tamaño de la pantalla.
 
-    3. La propiedad `transition` cuyos yalores seran `all 1s ease` que significa `nombre de la propiedad a la que se va aplicar | duración | función ` en este caso se le esta aplicando a todas las propiedades de este `div` con un tiempo de duracion de `1s` en cual esta transicion comienza lento, aumenta su velocidad y termina de aplicarse lento (`ease`)
+    3. La propiedad `transition` cuyos valores seran `all 1s ease` que significa `nombre de la propiedad a la que se va aplicar | duración | función ` en este caso se le esta aplicando a todas las propiedades de este `div` con un tiempo de duracion de `1s` en cual esta transicion comienza lento, aumenta su velocidad y termina de aplicarse lento (`ease`)
     
     4. Por ultimo la propiedad `z-index` con un valor alto para que de posicione enfrente del contenido que ya se visualiza en el DOM,(para este ejemplo se implemento un valor de 10000)
 
