@@ -1,0 +1,67 @@
+.container{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.osaka{
+    background-image: url("../images/Osaka.webp");
+    background-size: cover;
+    background-position: center;
+}
+.paris{
+    background-image: url("../images/París.webp");
+    background-size: cover;
+    background-position: center;
+}
+.singapur{
+    background-image: url("../images/Singapur.webp");
+    background-size: cover;
+    background-position: center;
+}
+.zurich{
+    background-image: url("../images/Zúrich.webp");
+    background-size: cover;
+    background-position: center;
+}
+.card::after{
+    font-size: 2rem;
+    color: white;
+    background-color: #242c3082;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transition: transform .4s;
+}
+.card.osaka:hover::after,
+.card.singapur:hover::after{
+    transform: translateX(0);
+}
+.card.paris:hover::after,
+.card.zurich:hover::after{
+    transform: translateY(0);
+}
+.card.osaka::after{
+    content: "Osaka, Japón";
+    transform: translateX(100%);
+}
+.card.paris::after{
+    content: "París, Francia";
+    transform: translateY(100%);
+}
+.card.singapur::after{
+    content: "Singapur, Singapur";
+    transform: translateX(-100%);
+}
+.card.zurich::after{
+    content: "Zúrich, Suiza";
+    transform: translateY(-100%);
+}
